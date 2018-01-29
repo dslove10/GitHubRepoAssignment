@@ -1,0 +1,29 @@
+cd desktop
+
+md GitHubRepoAssignment
+
+git init
+
+copy NUL readme.md
+
+git status
+
+git add readme.md
+
+git commit -m "initial commit for readme.md"
+
+git remote add origin https://github.com/dslove10/GitHubRepoAssignment.git
+
+git push -u origin master
+
+copy NUL GitHubRepoAssignment.txt
+
+notepad GitHubRepoAssignment.txt
+
+git status
+
+git add GitHubRepoAssignment.txt
+
+git commit -m "added GitHubRepoAssignment.txt"
+
+git push -u origin master
